@@ -22,10 +22,11 @@ coming soon
 
 Please cite the following paper if it helps your research:
 ```
-@article{jiang2020bcnet,
+@inproceedings{jiang2020bcnet,
   title={BCNet: Learning Body and Cloth Shape from A Single Image},
   author={Jiang, Boyi and Zhang, Juyong and Hong, Yang and Luo, Jinhao and Liu, Ligang and Bao, Hujun},
-  journal={arXiv preprint arXiv:2004.00214},
-  year={2020}
+  booktitle={European Conference on Computer Vision},
+  year={2020},
+  organization={Springer}
 }
 ```
