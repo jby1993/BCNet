@@ -15,7 +15,7 @@ Note that all of the code and dataset can be only used for research purposes. If
 ## Inference
 ### 1. Install
 - Download the [trained model](https://mailustceducn-my.sharepoint.com/:u:/g/personal/jby1993_mail_ustc_edu_cn/Ec4gw5LLQqRFqHnik_JU-mQBja5BiH7uWZJXTyQoCJsqMg?e=azQfQL) and mv to the "models" folder.
-- Download the tmps data in body_garment_dataset.
+- Download the [tmps](https://mailustceducn-my.sharepoint.com/:f:/g/personal/jby1993_mail_ustc_edu_cn/EmZqxx-OSo9FiaUmNTP-sisBBlpUM0W4CLOkSJwBcrGogA?e=fgubX0) data in body_garment_dataset.
 - This code is compatible with python 3.7 and pytorch 1.6. In addition, the following packages are required: numpy, torch_geometric 1.5, openmesh, opencv...
 You can create an anaconda environment called BCNet with the required dependencies by running: 
 ```
