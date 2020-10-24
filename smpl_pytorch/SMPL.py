@@ -90,7 +90,7 @@ class SMPL(nn.Module):
 			Rs = batch_rodrigues(theta.view(-1, 3)).view(-1, 24, 3, 3)
 		else: #theta is already rotations
 			Rs = theta.view(-1,24,3,3)
-		pose_feature = (Rs[:, 1:, :, :]).sub(1.0, self.e3).view(-1, 207)
+		pose_feature = (Rs[:, 1:, :, :]).sub(self.e3,alpha=1.0).view(-1, 207)
 		v_posed = torch.matmul(pose_feature, self.posedirs).view(-1, self.size[0], self.size[1]) + v_shaped
 		self.J_transformed, A = batch_global_rigid_transformation(Rs, J, self.parents, rotate_base = False)
 
